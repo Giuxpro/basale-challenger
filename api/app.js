@@ -1,6 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
-// const routes = require('./routes/index.js');
+const routes = require('./routes/index.js');
 const port = 3001;
 
 require('./db.js');
@@ -19,7 +19,7 @@ app.use((req, res, next) => {
     next();
 });
 
-// app.use('/', routes);
+app.use('/', routes);
 
 /* This is a middleware function that is used to catch errors. */
 app.use((err, req, res, next) => {
