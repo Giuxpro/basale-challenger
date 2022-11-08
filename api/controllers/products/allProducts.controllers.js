@@ -3,7 +3,7 @@ const db = require('../../db.js');
 const getAllProducts = async (res) => {
 
     try{
-        await db.query( "SELECT * FROM product", (err, rows, fields) => {
+        await db.query( "SELECT * FROM product", (err, rows) => {
             if(err) throw err;
             res.send(rows);    
         });

@@ -4,11 +4,11 @@ const getAllProducts = require('../../controllers/products/allProducts.controlle
 const getProductsByName = require('../../controllers/products/productsByName.controllers');
 
 router.get('/products', async(req, res) =>{
-    const {search} = req.query;
+    const {name} = req.query;
 
     try {
-        if(search){
-            return await getProductsByName(res, search);
+        if(name){
+            return await getProductsByName(res, name);
         } else {
             return await getAllProducts(res);
         }
