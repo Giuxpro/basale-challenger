@@ -1,6 +1,6 @@
 const { Router } = require('express');
 const router = Router();
-const getAllProducts = require('../../controllers/products/allProducts.controllers');
+const getProducts = require('../../controllers/products/products.controllers');
 const getProductsByName = require('../../controllers/products/productsByName.controllers');
 
 router.get('/products', async(req, res) =>{
@@ -10,7 +10,7 @@ router.get('/products', async(req, res) =>{
         if(name){
             return await getProductsByName(res, name);
         } else {
-            return await getAllProducts(res);
+            return await getProducts(res);
         }
     } catch(err) {
         console.log({error:err})
