@@ -1,5 +1,5 @@
 
-import getProducts from './fetch_info/getProducts';
+import getProducts from './fetch_info/getProducts.js';
 
 const inputSearch = document.querySelector('#inputSerach');
 const btnSubmit = document.querySelector('#btnSubmit');
