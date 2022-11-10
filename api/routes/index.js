@@ -5,7 +5,8 @@ const productsByCategory = require('./products/productsByCategory.routes');
 const router = Router();
 
 
-/* Importing the routes from the files in the routes folder. */
+
+/* Importing the routes from the categories and products folder and using them in the index.js file. */
 router.use('/', products);
 router.use('/', categories);
 router.use('/', productsByCategory);
