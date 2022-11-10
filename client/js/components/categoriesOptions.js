@@ -1,7 +1,7 @@
 
 const categoriesOptions = (id, name) => {
     const options = `
-        <buttom value="${id}">${name}</buttom>
+        <button value="${id}">${name}</button>
     `;
     return options;
 };
