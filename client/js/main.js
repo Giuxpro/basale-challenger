@@ -16,7 +16,7 @@ function appInit() {
 };
 
 categories.addEventListener('click', (e) => {
-    if(e.target.value === 0){
+    if(e.target.value == 0){
         getProducts();
         return;
     }
