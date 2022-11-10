@@ -1,5 +1,11 @@
 const db = require('../../db.js');
 
+/**
+ * It gets all the products from the database that match the category that the user has selected
+ * @param res - response
+ * @param category - String
+ * @returns the result of the query.
+ */
 const getProductsByCategory = async (res, category) => {
 
     try {

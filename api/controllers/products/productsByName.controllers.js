@@ -1,5 +1,13 @@
 const db = require('../../db');
 
+/**
+ * It's a function that receives a response and a name, and it returns a list of products that match
+ * the name.
+ * </code>
+ * @param res - is the response object
+ * @param name - The name of the product you want to search for.
+ * @returns the result of the query.
+ */
 const getProductsByName = async (res, name) => {
 
     try {
