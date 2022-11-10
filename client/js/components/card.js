@@ -1,4 +1,11 @@
 
+/**
+ * It takes in an image, name, and price and returns a card with the image, name, and price.
+ * @param image - the image of the product
+ * @param name - "Nombre del producto"
+ * @param price - "1.00"
+ * @returns A string of HTML code.
+ */
 const card = (image, name, price) => {
     const imageUnavailable = 'https://www.delsol.com.mx/wcsstore/ExtendedSitesCatalogAssetStore/images/foto-no-disponible.png'
     const card = `
