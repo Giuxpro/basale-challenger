@@ -1,4 +1,4 @@
-
+import getCategories from './fetch_info/getCategories.js';
 import getProducts from './fetch_info/getProducts.js';
 
 const inputSearch = document.querySelector('#inputSerach');
@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', appInit);
 
 
 function appInit() {
-   
+    getCategories();
     getProducts();
     return;
 }

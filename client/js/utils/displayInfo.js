@@ -7,7 +7,7 @@ const displayInfo = (data) => {
         const image = data[i].url_image;
         const name = data[i].name;
         const price = data[i].price;
-        productsContainer.innerHTML =  productsContainer.innerHTML + card(image, name, price);
+        productsContainer.innerHTML += card(image, name, price);
     }
     return;
 };
