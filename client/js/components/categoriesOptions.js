@@ -9,7 +9,7 @@
 const categoriesOptions = (id, name) => {
     const options = `
         
-        <button value="${id}">${name}</button>
+        <option value="${id}" class="row">${name}</option>
     `;
     return options;
 };
