@@ -1,6 +1,6 @@
 import displayInfo from '../utils/displayInfo.js';
 import displayError from '../utils/displayError.js';
-const url = 'http://localhost:3001';
+const url = 'https://bsale-backend-lac.vercel.app';
 
 /**
  * It takes a name as an argument, fetches the data from the DB, and then if there is not error

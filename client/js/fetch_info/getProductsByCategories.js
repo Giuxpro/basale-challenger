@@ -1,5 +1,5 @@
 import displayInfo from '../../js/utils/displayInfo.js';
-const url = 'http://localhost:3001';
+const url = 'https://bsale-backend-lac.vercel.app';
 
 /**
  * It fetches the data from the DB and then send it to displayInfo function

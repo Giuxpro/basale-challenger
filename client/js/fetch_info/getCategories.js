@@ -1,5 +1,5 @@
 import displayCategories from '../utils/displayCategories.js';
-const url = 'http://localhost:3001';
+const url = 'https://bsale-backend-lac.vercel.app';
 
 /**
  * Fetch the categories from the DB, then sent it to displayCategories function
