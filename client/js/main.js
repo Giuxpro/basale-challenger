@@ -48,7 +48,7 @@ inputSearch.addEventListener('input', (e) => {
 */
 btnSubmit.addEventListener('click', (e) => {
     e.preventDefault();
-    if(searchForProduct === ''){
+    if(searchForProduct === '' || inputSearch.value === ''){
         return displayError({error:'Por favor ingresa un producto'});
     };
     getProductsByName(searchForProduct);

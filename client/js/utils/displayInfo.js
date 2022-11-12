@@ -11,7 +11,7 @@ const displayInfo = (data) => {
     productsContainer.innerHTML = '';
     for(let i = 0; i < data.length; i++) {
         const image = data[i].url_image;
-        const name = data[i].name;
+        const name = data[i].name.toUpperCase();
         const price = data[i].price;
         productsContainer.innerHTML += card(image, name, price);
     }
