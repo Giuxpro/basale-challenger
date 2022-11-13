@@ -56,9 +56,9 @@
 `Description` = *Not Found*
 `Example Value` =
 
-        {
-            error: Cannot GET /produc
-        }
+        
+        Cannot GET /produc
+        
 ___
 
 ### Búsqueda de productos por nombre
@@ -191,6 +191,6 @@ ___
 `Description` = *Not Found*
 `Example Value` =
 
-        {
-            error: Cannot GET /categori
-        }
+        
+        Cannot GET /categori
+        
