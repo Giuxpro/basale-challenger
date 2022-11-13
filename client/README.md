@@ -9,12 +9,12 @@ Construir una tienda online utilizando la base de dato indicada en el ejercicio,
 
 #### Características:
 
-    *Bsale web permite realizar filtrados por categoría seleccionada.
+    * Bsale web permite realizar filtrados por categoría seleccionada.
         
-    *Permite realizar búsquedas y mostrar los productos que coincidan con la búsqueda del cliente.
+    * Permite realizar búsquedas y mostrar los productos que coincidan con la búsqueda del cliente.
        
-    *Al realizar una búsqueda sin insertar un producto se mostrara un mensaje de error indicando que el campo debe ser llenado.
+    * Al realizar una búsqueda sin insertar un producto se mostrara un mensaje de error indicando que el campo debe ser llenado.
         
-    *Al realizar una búsqueda con valores que no existen mostrara un mensaje de error indicando que de momento el producto no esta disponible.
+    * Al realizar una búsqueda con valores que no existen mostrara un mensaje de error indicando que de momento el producto no esta disponible.
     
 [![bsale-Img.jpg](https://i.postimg.cc/FKyHX0rs/bsale-Img.jpg)](https://postimg.cc/p9dHDh5g)
