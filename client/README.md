@@ -1,11 +1,13 @@
 
-##Bsale-frontend with Vanilla Js
+## Bsale-frontend with Vanilla Js
 - - -
 
-####Desafío: 
+#### Desafío:  
+
+
 Construir una tienda online utilizando la base de dato indicada en el ejercicio, donde debe generar por separado backend "("Api REST")" y frontend "("aplicación que la consuma")", el cual deberá desplegar productos agrupados por la categoría a la que pertenecen y la logíca de busqueda y filtrados deben esta implementados a nivel de servidor
 
-####Características:
+#### Características:
 
     *Bsale web permite realizar filtrados por categoría seleccionada.
         
